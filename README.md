@@ -105,7 +105,7 @@ Using the UISlider to go "back in time" to look at the last plays in the game.
 
 
 UIAlertView lets the player know that there are no more matches possible.
-![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_5.png
+![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_5.png)
 
 
 The remaining cards that were left on the board are now face up and are outlined with a red border.
