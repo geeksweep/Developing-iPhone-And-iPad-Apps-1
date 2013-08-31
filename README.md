@@ -64,7 +64,7 @@ Extra Credit:
 Adding the UISlider that would keep up with the flip history. I use the same text label from step #3 and just change the alpha value of the label to 0.3. 
 
 
-Additional Work - Above and Beyond the Extra Credit. (see comments in the code and screenshots below).
+####Additional Work - Above and Beyond the Extra Credit. (see comments in the code and screenshots below).
 
 1. Added code to the let the player know when there are no more matches possible. 
 
