@@ -1,11 +1,11 @@
 Stanford iTunesU Winter 2013 - Coding Together, Developing-iPhone-and-iPad-Apps
-===============================
+===============================================================================
 
-####Overview - Homework Assignment #1
+####Overview - Homework Assignment #1:
 
 1. Replicate the latest version of the code in lecture.
 
-2. Add 4 cards to the game (for a total of 16)
+2. Add 4 cards to the game (for a total of 16).
 
 3. Add a text label somewhere which desribes the results of the last flip. 
     Examples:
@@ -43,21 +43,21 @@ the present” in the slider. Implementing this extra credit item will require y
 familiarize yourself with UISlider’s API and to add a data structure to your Controller to
 keep track of the history. It can be implemented in fewer than a dozen lines of code.
   
-####Solutions
+####Solutions: (see screenshots below)
 
 1. Reproduced the latest version of Matchismo that was done in lecture. This was a continuation of the first lecture that can be seen in Homework #0.
 
-2. Added 4 cards(UIButtons) to the game via Interface builder then linked up those to the Outlet Collection
+2. Added 4 cards(UIButtons) to the game via Interface builder then linked up those to the Outlet Collection.
 
 3. Added the text label which described the results of the last flip. I used NSStringWithFormat to customize the printout of the last flip which was really needed for the 3 card game mode. 
 
-4. Added the "Deal" button that re-deals all the cards and wrote all the code to take care of all the events that need to take place when dealing a new hand (resetting the score, etc)
+4. Added the "Deal" button that re-deals all the cards and wrote all the code to take care of all the events that need to take place when dealing a new hand (resetting the score, etc).
 
 5. Created a UISegementedControl to support the 2-card and 3-card match mode. Updated the CardMatchingGame model file accordingly. When re-dealing a game I automatically set it to a 2-card game by default.
 
 6. Disabled the game play mode / Enabled game play mode as required.
 
-7. Used an image off of the interwebs for the back of the card instead of the apple logo
+7. Used an image off of the interwebs for the back of the card instead of the apple logo.
 
 Extra Credit:
 
@@ -68,7 +68,7 @@ Additional Work - Above and Beyond the Extra Credit. (see comments in the code a
 
 1. Added code to the let the player know when there are no more matches possible. 
 
-  1a. Whenever the player gets a successful match, filter out the number of cards that are playable using a predicate.
+  1a. Whenever the player gets a successful match, filter out the number of cards that are playable using a                predicate.
   
   1b. Using the cards from 1a.,  check to see if there are suits or ranks available to play based on the current game
       mode. Write separate predicates to filter out the suits and ranks. Example: If we are in a 3-card game mode          then check to see if there are 3 or more of one suit. If this fails, then check to see if there are 3 or more        of a certain rank (A, 2, 3...K).
@@ -81,18 +81,46 @@ Additional Work - Above and Beyond the Extra Credit. (see comments in the code a
       alpha value of 0.3 and a red border is drawn around each of cards. This will let the player easily see and           distinguish between the cards that were already matched and the cards that were leftover. 
 
 
-####Environment
+####Environment:
 
 iPhone 6.1 Simulator
 
-####Screenshots
+####Screenshots:
 
-![screenshot](http://geeksweep.files.wordpress.com/2011/08/homework0_1.png)
+####2-card game
 
-![screenshot](http://geeksweep.files.wordpress.com/2011/08/homework0_2.png)
+![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_1.png)
 
-![screenshot](http://geeksweep.files.wordpress.com/2011/08/homework0_3.png)
+Selecting the first card - UISlider updates, SegmentedControl Disabled. 
+![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_2.png)
 
+Got a match!
+![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_3.png)
+
+Using the UISlider to go "back in time" to look at the last plays in the game.
+![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_4.png)
+
+UIAlertView lets the player know that there are no more matches possible.
+![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_5.png
+
+The remaining cards that were left on the board are now face up and are outlined with a red border.
+![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_6.png)
+
+####3-card game - Lucky with first match right off the bat.
+
+![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_7.png)
+
+Now getting matches in spades(no pun intended).
+![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_8.png)
+
+Using the UISlider to go "back in time" once again.
+![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_9.png)
+
+UIAlertView once again lets the player know that the game is over with no more matches possible.
+![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_10.png)
+
+The remaining cards that were left on the board are now face up and are outlined with a red border. 
+![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_11.png)
 
 
 
