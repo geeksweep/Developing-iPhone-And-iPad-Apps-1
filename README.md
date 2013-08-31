@@ -89,28 +89,34 @@ iPhone 6.1 Simulator
 
 ####2-card game
 
-Selecting the first card - UISlider updates, SegmentedControl Disabled. 
+Selecting the first card - UISlider updates, SegmentedControl Disabled.
+
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_1.png)
 
 
 Got a match!
+
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_2.png)
 
 
 Using the UISlider to go "back in time" to look at the last plays in the game.
+
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_3.png)
 
 
 
 UIAlertView lets the player know that there are no more matches possible.
+
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_4.png)
 
 
 The remaining cards that were left on the board are now face up and are outlined with a red border.
+
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_5.png)
 
 
 The remaining cards that were left on the board are now face up and are outlined with a red border.
+
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_6.png)
 
 
@@ -120,18 +126,22 @@ The remaining cards that were left on the board are now face up and are outlined
 
 
 Now getting matches in spades(no pun intended).
+
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_8.png)
 
 
 Using the UISlider to go "back in time" once again.
+
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_9.png)
 
 
 UIAlertView once again lets the player know that the game is over with no more matches possible.
+
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_10.png)
 
 
 The remaining cards that were left on the board are now face up and are outlined with a red border. 
+
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_11.png)
 
 
