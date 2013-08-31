@@ -155,4 +155,10 @@ The remaining cards that were left on the board are now face up and are outlined
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_11.png)
 
 
+Finally a game with a fairly good score!
+
+![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_12.png)
+
+
+
 
