@@ -90,7 +90,7 @@ iPhone 6.1 Simulator
 
 ####Screenshots:
 
-####2-card game - Start up screen
+####2-card game - Start up screen, UISlider is disabled.
 
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_1.png)
 
@@ -126,7 +126,7 @@ The remaining cards that were left on the board are now face up and are outlined
 
 
 
-####3-card game
+####3-card game - UISlider is disabled.
 
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_7.png)
 
