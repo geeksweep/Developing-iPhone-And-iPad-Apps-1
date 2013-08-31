@@ -79,6 +79,9 @@ Additional Work - Above and Beyond the Extra Credit. (see comments in the code a
       
   1d. After the player taps on the "OK" button on the alertView, the alertView dismisses and the remaining cards that       were still playable (even though no more matches were possible) are flipped face up, set to unplayable with an 
       alpha value of 0.3 and a red border is drawn around each of cards. This will let the player easily see and           distinguish between the cards that were already matched and the cards that were leftover. 
+      
+  1e. When you deal a new game there is code to make sure all of the cards are reset (along with the red borders) 
+      properly so that you can start on the next game.
 
 
 ####Environment:
