@@ -74,8 +74,8 @@ Adding the UISlider that would keep up with the flip history. I use the same tex
       mode. Write separate predicates to filter out the suits and ranks. Example: If we are in a 3-card game mode          then check to see if there are 3 or more of one suit. If this fails, then check to see if there are 3 or more        of a certain rank (A, 2, 3...K).
       
   1c. If there are not enough suits or ranks then we set a flag in the card matching game model that the game is over
-      . The view controller checks after each flip to see if the game is now over and if so, initializing and shows 
-      a UIAlertView with an "OK" button to let the player know that there are no more matches possible and that the        game is over.
+      . The view controller checks after each flip to see if the game is now over and if so, initializes and shows 
+      a UIAlertView with an "OK" button to let the player know that there are no more matches are possible and that        the game is over.
       
   1d. After the player taps on the "OK" button on the alertView, the alertView dismisses and the remaining cards that       were still playable (even though no more matches were possible) are flipped face up, set to unplayable with an 
       alpha value of 0.3 and a red border is drawn around each of cards. This will let the player easily see and           distinguish between the cards that were already matched and the cards that were leftover. 
