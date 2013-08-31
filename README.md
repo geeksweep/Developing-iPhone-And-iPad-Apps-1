@@ -92,9 +92,11 @@ iPhone 6.1 Simulator
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_1.png)
 
 
+
 Selecting the first card - UISlider updates, SegmentedControl Disabled.
 
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_2.png)
+
 
 
 Got a match!
@@ -108,9 +110,11 @@ Using the UISlider to go "back in time" to look at the last plays in the game.
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_4.png)
 
 
+
 UIAlertView lets the player know that there are no more matches possible.
 
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_5.png)
+
 
 
 The remaining cards that were left on the board are now face up and are outlined with a red border.
@@ -118,9 +122,11 @@ The remaining cards that were left on the board are now face up and are outlined
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_6.png)
 
 
-####3-card game - Lucky with first match right off the bat.
+
+####3-card game
 
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_7.png)
+
 
 
 Now getting matches in spades(no pun intended).
@@ -128,14 +134,17 @@ Now getting matches in spades(no pun intended).
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_8.png)
 
 
+
 Using the UISlider to go "back in time" once again.
 
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_9.png)
 
 
+
 UIAlertView once again lets the player know that the game is over with no more matches possible.
 
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_10.png)
+
 
 
 The remaining cards that were left on the board are now face up and are outlined with a red border. 
