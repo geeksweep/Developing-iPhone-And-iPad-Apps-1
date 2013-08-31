@@ -126,7 +126,7 @@ The remaining cards that were left on the board are now face up and are outlined
 
 
 
-####3-card game - UISlider is disabled.
+####3-card game - SegmentedControl is disabled.
 
 ![screenshot](http://geeksweep.files.wordpress.com/2013/08/homework1_7.png)
 
